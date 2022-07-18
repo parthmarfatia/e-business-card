@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 317px;
+  background-color: #1a1b21;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.info {
+  justify-content: center;
+  text-align: center;
+}
+
+.info-img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.info-name {
+  color: white;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 21px 0 0 0;
+}
+
+.info-designation {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f3bf99;
+  margin: 6px 0 0 0;
+}
+
+.info-website {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.info-icons {
+  margin-top: 15px;
+  margin-bottom: 33px;
+}
+
+.info-mail {
+  width: 115px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 9px 13px;
+  margin-right: 17px;
+  border-radius: 6px;
+}
+
+.info-linkedin {
+  width: 115px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 9px 13px;
+  border-radius: 6px;
+  background-color: #5093e2;
+  color: white;
+}
+
+.info-icon-content {
+  margin-right: 8px;
+}
+
+.about,
+.interests {
+  color: white;
+  margin: 0 35px 0 35px;
+}
+
+.about-heading,
+.interests-heading {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 15px 0 5px 0;
+}
+
+.about-content,
+.interests-content {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+.footer {
+  color: #918e9b;
+  margin: 40px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 73px 20px 73px;
+  background-color: #161619;
+  border-radius: 10px;
+}
