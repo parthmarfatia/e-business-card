@@ -5,7 +5,7 @@ function Interests() {
     <div className="interests">
       <h3 className="interests-heading">Interests</h3>
       <p className="interests-content">
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+        Music scholar. Reader. Internet fanatic. Bacon buff.
         Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
       </p>
     </div>
